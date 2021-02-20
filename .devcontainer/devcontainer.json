@@ -13,6 +13,7 @@
 	"extensions": [
 		"dbaeumer.vscode-eslint",
 		"chirtlelovesdolls.nebula-theme",
-		"ms-vsliveshare.vsliveshare"
+		"ms-vsliveshare.vsliveshare",
+		"streetsidesoftware.code-spell-checker"
 	]
 }

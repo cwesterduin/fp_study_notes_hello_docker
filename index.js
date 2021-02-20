@@ -4,11 +4,11 @@ const ui = require('readline').createInterface({
 });
 
 ui.question('Hi there! What is your name?\n\n', input => {
-    const message = sayHello(input)
+    const message = sayGoodbye(input)
     console.log(message)
     ui.close();
 })
 
-function sayHello(name){
-    return `\tHello, ${name}!\n`
+function sayGoodbye(name){
+    return `\tGoodbye, ${name}!\n`
 }
